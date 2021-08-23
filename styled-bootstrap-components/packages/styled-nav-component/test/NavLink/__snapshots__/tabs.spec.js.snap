@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Styles matches NavLink tabs 1`] = `
+.c0 {
+  display: block;
+  padding: 0.5rem;
+  border: 1px solid transparent;
+  color: #007bff;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:hover,
+.c0:focus {
+  color: #0069d9;
+}
+
+.c0:hover,
+.c0:focus {
+  border-color: #d6d8d9 #d6d8d9 #d6d8d9;
+}
+
+<a
+  className="c0"
+/>
+`;
+
+exports[`Styles matches NavLink tabs active 1`] = `
+.c0 {
+  display: block;
+  padding: 0.5rem;
+  border: 1px solid transparent;
+  color: #343a40;
+  border-color: #d6d8d9 #d6d8d9 #fff;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:hover,
+.c0:focus {
+  color: #201a1d;
+}
+
+<a
+  className="c0"
+/>
+`;
+
+exports[`Styles matches NavLink tabs disabled 1`] = `
+.c0 {
+  display: block;
+  padding: 0.5rem;
+  border: 1px solid transparent;
+  color: #abaeb1;
+  border-color: transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:hover,
+.c0:focus {
+  color: #abaeb1;
+}
+
+<a
+  className="c0"
+  disabled={true}
+/>
+`;

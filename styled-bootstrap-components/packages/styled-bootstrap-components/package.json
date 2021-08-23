@@ -1,0 +1,76 @@
+{
+  "name": "styled-bootstrap-components",
+  "version": "4.0.0",
+  "description": "The bootstrap components created with styled-components",
+  "main": "./lib/index.js",
+  "private": false,
+  "scripts": {
+    "test": "jest --coverage",
+    "prepublish": "babel --root-mode upward src --out-dir lib"
+  },
+  "author": "Lukas Aichbauer <l.aichbauer@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "components",
+    "react",
+    "react-component",
+    "ui",
+    "styled-components",
+    "bootstrap",
+    "presentational",
+    "stateless",
+    "functional"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aichbauer/styled-bootstrap-components.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aichbauer/styled-bootstrap-components/issues"
+  },
+  "homepage": "https://github.com/aichbauer/styled-bootstrap-components",
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "../../jest.transformer.js"
+    }
+  },
+  "dependencies": {
+    "styled-alert-component": "^4.0.0",
+    "styled-badge-component": "^4.0.0",
+    "styled-base-components": "^4.0.0",
+    "styled-breadcrumb-component": "^4.0.0",
+    "styled-button-component": "^4.0.0",
+    "styled-card-component": "^4.0.0",
+    "styled-config": "^4.0.0",
+    "styled-container-component": "^4.0.0",
+    "styled-dropdown-component": "^4.0.0",
+    "styled-form-component": "^4.0.0",
+    "styled-grid-system-component": "^4.0.0",
+    "styled-jumbotron-component": "^4.0.0",
+    "styled-listgroup-component": "^4.0.0",
+    "styled-modal-component": "^4.0.0",
+    "styled-nav-component": "^4.0.0",
+    "styled-navbar-component": "^4.0.0",
+    "styled-popover-component": "^4.0.0",
+    "styled-table-component": "^4.0.0",
+    "styled-tooltip-component": "^4.0.0"
+  },
+  "peerDependencies": {
+    "react": "^16.7.0",
+    "styled-components": "^4.1.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "jest": "^23.6.0",
+    "jest-styled-components": "^6.3.1",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-test-renderer": "^16.7.0",
+    "regenerator-runtime": "^0.13.1"
+  }
+}

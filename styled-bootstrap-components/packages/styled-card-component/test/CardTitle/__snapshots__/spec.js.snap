@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Styles matches CardTitle h1 1`] = `
+.c0 {
+  margin-bottom: 0.5rem;
+}
+
+<h1
+  className="c0"
+/>
+`;
+
+exports[`Styles matches CardTitle h1 2`] = `
+.c0 {
+  margin-bottom: 0.5rem;
+}
+
+<h1
+  className="c0"
+/>
+`;
+
+exports[`Styles matches CardTitle h2 1`] = `
+.c0 {
+  margin-bottom: 0.5rem;
+}
+
+<h2
+  className="c0"
+/>
+`;
+
+exports[`Styles matches CardTitle h3 1`] = `
+.c0 {
+  margin-bottom: 0.5rem;
+}
+
+<h3
+  className="c0"
+/>
+`;
+
+exports[`Styles matches CardTitle h4 1`] = `
+.c0 {
+  margin-bottom: 0.5rem;
+}
+
+<h4
+  className="c0"
+/>
+`;
+
+exports[`Styles matches CardTitle h5 1`] = `
+.c0 {
+  margin-bottom: 0.5rem;
+}
+
+<h5
+  className="c0"
+/>
+`;
+
+exports[`Styles matches CardTitle h6 1`] = `
+.c0 {
+  margin-bottom: 0.5rem;
+}
+
+<h6
+  className="c0"
+/>
+`;
+
+exports[`Styles matches CardTitle muted 1`] = `
+.c0 {
+  margin-bottom: 0.5rem;
+  color: #abaeb1;
+}
+
+<h6
+  className="c0"
+  muted={true}
+/>
+`;
+
+exports[`Styles matches CardTitle subtitle 1`] = `
+.c0 {
+  margin-bottom: 0.5rem;
+  margin-top: -0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+<h4
+  className="c0"
+/>
+`;

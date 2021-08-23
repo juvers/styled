@@ -1,0 +1,260 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Styles matches PopoverHeader 1`] = `
+.c0 {
+  top: 0;
+  left: 50%;
+  display: block;
+  content: "";
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 1rem;
+  color: inherit;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #e2e6ea;
+  border-top-left-radius: calc(0.3rem - 1px);
+  border-top-right-radius: calc(0.3rem - 1px);
+}
+
+.c0::before {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: block;
+  width: 1rem;
+  margin-left: -0.5rem;
+  content: "";
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.c0:empty {
+  display: none;
+}
+
+<h4
+  className="c0"
+/>
+`;
+
+exports[`Styles matches PopoverHeader h1 1`] = `
+.c0 {
+  top: 0;
+  left: 50%;
+  display: block;
+  content: "";
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 1rem;
+  color: inherit;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #e2e6ea;
+  border-top-left-radius: calc(0.3rem - 1px);
+  border-top-right-radius: calc(0.3rem - 1px);
+}
+
+.c0::before {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: block;
+  width: 1rem;
+  margin-left: -0.5rem;
+  content: "";
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.c0:empty {
+  display: none;
+}
+
+<h1
+  className="c0"
+/>
+`;
+
+exports[`Styles matches PopoverHeader h2 1`] = `
+.c0 {
+  top: 0;
+  left: 50%;
+  display: block;
+  content: "";
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 1rem;
+  color: inherit;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #e2e6ea;
+  border-top-left-radius: calc(0.3rem - 1px);
+  border-top-right-radius: calc(0.3rem - 1px);
+}
+
+.c0::before {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: block;
+  width: 1rem;
+  margin-left: -0.5rem;
+  content: "";
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.c0:empty {
+  display: none;
+}
+
+<h2
+  className="c0"
+/>
+`;
+
+exports[`Styles matches PopoverHeader h3 1`] = `
+.c0 {
+  top: 0;
+  left: 50%;
+  display: block;
+  content: "";
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 1rem;
+  color: inherit;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #e2e6ea;
+  border-top-left-radius: calc(0.3rem - 1px);
+  border-top-right-radius: calc(0.3rem - 1px);
+}
+
+.c0::before {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: block;
+  width: 1rem;
+  margin-left: -0.5rem;
+  content: "";
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.c0:empty {
+  display: none;
+}
+
+<h3
+  className="c0"
+/>
+`;
+
+exports[`Styles matches PopoverHeader h4 1`] = `
+.c0 {
+  top: 0;
+  left: 50%;
+  display: block;
+  content: "";
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 1rem;
+  color: inherit;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #e2e6ea;
+  border-top-left-radius: calc(0.3rem - 1px);
+  border-top-right-radius: calc(0.3rem - 1px);
+}
+
+.c0::before {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: block;
+  width: 1rem;
+  margin-left: -0.5rem;
+  content: "";
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.c0:empty {
+  display: none;
+}
+
+<h4
+  className="c0"
+/>
+`;
+
+exports[`Styles matches PopoverHeader h5 1`] = `
+.c0 {
+  top: 0;
+  left: 50%;
+  display: block;
+  content: "";
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 1rem;
+  color: inherit;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #e2e6ea;
+  border-top-left-radius: calc(0.3rem - 1px);
+  border-top-right-radius: calc(0.3rem - 1px);
+}
+
+.c0::before {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: block;
+  width: 1rem;
+  margin-left: -0.5rem;
+  content: "";
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.c0:empty {
+  display: none;
+}
+
+<h5
+  className="c0"
+/>
+`;
+
+exports[`Styles matches PopoverHeader h6 1`] = `
+.c0 {
+  top: 0;
+  left: 50%;
+  display: block;
+  content: "";
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 1rem;
+  color: inherit;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #e2e6ea;
+  border-top-left-radius: calc(0.3rem - 1px);
+  border-top-right-radius: calc(0.3rem - 1px);
+}
+
+.c0::before {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: block;
+  width: 1rem;
+  margin-left: -0.5rem;
+  content: "";
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.c0:empty {
+  display: none;
+}
+
+<h6
+  className="c0"
+/>
+`;

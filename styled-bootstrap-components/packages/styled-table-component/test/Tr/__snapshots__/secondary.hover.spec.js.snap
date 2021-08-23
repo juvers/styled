@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Styles matches Tr secondary hover 1`] = `
+.c0 > th,
+.c0 > td {
+  background-color: #b4b5b7;
+}
+
+.hover .c0:hover > th,
+.hover .c0:hover > td,
+.hover .c0 tbody tr:hover,
+.hover .c0 tbody tr:hover > th,
+.hover .c0 tbody tr:hover > td {
+  background-color: #6c757d;
+}
+
+<tr
+  className="c0"
+/>
+`;

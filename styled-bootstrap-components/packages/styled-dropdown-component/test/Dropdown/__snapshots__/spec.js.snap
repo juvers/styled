@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Styles matches Dropdown 1`] = `
+.c0 {
+  position: relative;
+  display: inline-block;
+}
+
+<div
+  className="c0"
+/>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Styles matches FormCheckInput disabled 1`] = `
+.c0 {
+  margin-top: 0.3rem;
+  margin-left: 0rem;
+  box-sizing: border-box;
+  color: #abaeb1;
+}
+
+.c0 + label {
+  color: #abaeb1;
+}
+
+<input
+  className="c0"
+  disabled={true}
+/>
+`;
