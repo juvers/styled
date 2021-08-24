@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import { Transition } from './components/transitions';
-import { GlobalStyles } from './components/globalStyle';
+// import { Transition } from './components/transitions';
+import { GlobalStyle } from './components/globalStyle';
 import { Utilities } from './components/utilityStyle';
 
 const P = styled.p `${Utilities};`;
@@ -29,8 +29,8 @@ const Select = styled.select `${Utilities};`;
 const Textarea = styled.textarea `${Utilities};`;
 
 export {
-    Transition,
-    GlobalStyles,
+    // Transition,
+    GlobalStyle,
     Utilities,
     P,
     A,

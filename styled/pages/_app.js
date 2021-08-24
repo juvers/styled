@@ -1,8 +1,8 @@
-import { GlobalStyles } from "../styled/base";
+import { GlobalStyle } from "../styled/base";
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <GlobalStyles />
+      <GlobalStyle />
       <Component {...pageProps} />
     </>
   );

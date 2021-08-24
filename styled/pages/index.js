@@ -1,12 +1,19 @@
 import Head from "next/head";
 import Image from "next/image";
+import styled from "styled-components";
 import { Navbar, NavbarLink } from "../styled/navbar";
 import { Nav } from "../styled/nav";
 import { Button } from "../styled/button";
 import { Jumbotron } from "../styled/jumbotron";
 import { Column, Row } from "../styled/grid";
+import { P, Utilities } from "../styled/base";
 
 import { useState } from "react";
+
+// create your own component
+const MyComponent = styled.div`
+  ${Utilities};
+`;
 
 export default function Home() {
   const [hidden, setHidden] = useState(true);
@@ -24,7 +31,7 @@ export default function Home() {
           </NavbarLink>
           <Nav end={"true"}>
             <Button
-              light
+              primary
               outline
               toggleCollapse
               expandSm
@@ -51,7 +58,7 @@ export default function Home() {
       </Navbar>
       <Jumbotron fluid>
         <h1>MMP Base design ideas</h1>
-        <p>
+        <P textJustify>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil sequi
           similique doloribus nostrum tempora at, dolores cupiditate quam
           corrupti pariatur magnam maxime aspernatur assumenda facilis quibusdam
@@ -65,7 +72,7 @@ export default function Home() {
           Obcaecati similique voluptate quod voluptatem nihil ipsam omnis modi
           cum, doloribus iste, laboriosam voluptas? Eaque, ipsa sint. Nam culpa,
           a earum itaque error quia expedita!
-        </p>
+        </P>
       </Jumbotron>
       <div>
         <Row>
@@ -85,6 +92,16 @@ export default function Home() {
           <Column xs={6}>{"xs={6}"}</Column>
         </Row>
       </div>
+
+      <MyComponent textJustify p5>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cum
+        maiores perspiciatis beatae delectus, totam asperiores quidem! Aperiam
+        eligendi omnis provident expedita ea molestiae adipisci voluptate? Sit
+        officiis aliquam quasi. Nemo culpa eum sint quisquam, doloremque quo
+        recusandae sapiente nulla tempore eos facere laborum ipsa, itaque
+        similique quia placeat. Repellendus sapiente est, repellat velit impedit
+        iste architecto possimus perferendis provident!
+      </MyComponent>
     </>
   );
 }
