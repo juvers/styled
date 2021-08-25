@@ -5,31 +5,40 @@ import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
 import Date from "../components/date";
 import { GetStaticProps } from "next";
-import styled from "styled-components";
+import styled, { StyledComponent, StyledInterface } from "styled-components";
 import applyStyleModifiers from "@modifiers/applyStyleModifiers";
-import React from "react";
+import React, {
+  ReactElement,
+  DetailedHTMLProps,
+  HTMLAttributes,
+  JSXElementConstructor,
+} from "react";
 
 export const TEXT_MODIFIERS = {
   success: () => `
   color: #118D4E;
+  font-size: 30px;
  `,
   warning: () => `
  color: #DBC72A;
  `,
-
+  blueLarge: () => `
+  font-size: 70px;
+  color: blue;`,
   error: () => `
  color: #DB2A30;
  `,
 };
-type P = { modifier: string | string[]; children: string };
-type S = React.Component<React.HTMLAttributes<{}> & P>;
 
-export const Heading = styled.h2<S>`
+export const Heading: any = styled.h2`
   color: #28293d;
   font-weight: 600;
   ${applyStyleModifiers(TEXT_MODIFIERS)};
 `;
 
+export const BTN: any = styled.button`
+  ${applyStyleModifiers(TEXT_MODIFIERS)}
+`;
 type allPostsData = {
   allPostsData: {
     date: string;
@@ -37,6 +46,8 @@ type allPostsData = {
     id: string;
   }[];
 };
+
+const x = "error";
 export default function Home({ allPostsData }: allPostsData): JSX.Element {
   return (
     <Layout home>
@@ -52,7 +63,14 @@ export default function Home({ allPostsData }: allPostsData): JSX.Element {
       </section>
       <section>
         <p>This is an idea</p>
-        <Heading modifiers={"error"}>Hello Buddy!!</Heading>
+        <Heading modifiers={["error"]}>Hello Buddy!!</Heading>
+        <BTN
+          onClick={() => alert("Get btn")}
+          href={"https://www.google.com"}
+          modifiers={["warning"]}
+        >
+          Inside button
+        </BTN>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
